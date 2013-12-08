@@ -1,3 +1,10 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
+title:        Ben Newton
+tagline:      "Front End Engineer"
+url:          http://benenewton.com
+author:
+  name:       "Ben Newton"
+  email:      "bennewton999@gmail.com"
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
+paginate:     5
