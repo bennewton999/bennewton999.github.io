@@ -1,0 +1,92 @@
+---
+layout: post
+title: Window Shopping – Create a Live Feed of Hot Items on Your Front Page
+categories:
+- How To
+tags:
+- 3dcart
+- bigcommerce
+- ecommerce
+- magento
+status: publish
+type: post
+published: true
+meta: {}
+---
+<p><!-- Start Shareaholic LikeButtonSetTop Automatic --><!-- End Shareaholic LikeButtonSetTop Automatic -->
+<a href="http://blog.vitalwall.com/wp-content/uploads/2011/10/SilverBullet.com_.jpg"><img class="alignleft size-full wp-image-49" title="SilverBullet.com" src="http://blog.vitalwall.com/wp-content/uploads/2011/10/SilverBullet.com_.jpg" alt="" width="124" height="242" /></a>When you walk into a store and you see a crowd around a shelf, you're going to go see what they are looking at.  You want the same thing to happen when people visit your website?  Then put a vital wall on your front page that shows a live feed of currently viewed items.  This will enable vistors to see what is being viewed live.  If there is a hot item, people entering your store are going to see it.</p>
+<p>Take a look at the front page of silverbullet.com.  You will see a "Hot Items" section on the right.  This shows all the items being viewed, live!</p>
+<p>It's quick an easy to install.</p>
+<h1>Quick Install</h1>
+<p>First, <a href="http://blog.vitalwall.com/set-up-your-first-wall/">set up a wall</a> in your account.</p>
+<p>Then, go to your product page in your site.  At the bottom of the page, insert the following code.</p>
+<div id="wpshdo_1" class="wp-synhighlighter-outer">
+<div id="wpshdt_1" class="wp-synhighlighter-expanded">
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td align="left" width="80%"><a name="#codesyntax_1"></a><a id="wpshat_1" class="wp-synhighlighter-title" title="Click to show/hide code block" onclick="javascript:wpsh_toggleBlock(1)" href="http://blog.vitalwall.com/window-shopping-create-a-live-feed-of-hot-items-on-your-front-page/#codesyntax_1">Source code</a></td>
+<td align="right"><a title="Show code only" onclick="javascript:wpsh_code(1)" href="http://blog.vitalwall.com/window-shopping-create-a-live-feed-of-hot-items-on-your-front-page/#codesyntax_1"><img style="border: 0 none;" src="http://blog.vitalwall.com/wp-content/plugins/wp-synhighlight/themes/default/images/code.png" alt="" border="0" /></a> <a title="Print code" onclick="javascript:wpsh_print(1)" href="http://blog.vitalwall.com/window-shopping-create-a-live-feed-of-hot-items-on-your-front-page/#codesyntax_1"><img style="border: 0 none;" src="http://blog.vitalwall.com/wp-content/plugins/wp-synhighlight/themes/default/images/printer.png" alt="" border="0" /></a> <a title="Show plugin information" href="http://blog.vitalwall.com/wp-content/plugins/wp-synhighlight/About.html"><img style="border: 0 none;" src="http://blog.vitalwall.com/wp-content/plugins/wp-synhighlight/themes/default/images/info.gif" alt="" border="0" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="wpshdi_1" class="wp-synhighlighter-inner" style="display: block;">
+<pre class="html4strict" style="font-family: monospace;"><span class="sc2">&lt;<a href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"text/javascript"</span>&gt;</span>
+
+var vitaldata='<span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">id</span><span class="sy0">=</span><span class="st0">"manufacturer"</span>&gt;&lt;%<span class="sy0">=</span>rs<span class="br0">(</span><span class="st0">"manufacturer_short_name"</span><span class="br0">)</span>%&gt;&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;&lt;<a href="http://december.com/html/4/element/a.html"><span class="kw2">a</span></a> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">"LINK_TO_ITEM"</span>&gt;&lt;<a href="http://december.com/html/4/element/img.html"><span class="kw2">img</span></a> <span class="kw3">src</span><span class="sy0">=</span><span class="st0">"LINK_TO_IMAGE"</span>&gt;&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/a.html"><span class="kw2">a</span></a>&gt;&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span>';
+
+var wall_id='YOUR_WALL_ID';
+
+<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a>&gt;</span>
+
+<span class="sc2">&lt;<a href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"text/javascript"</span> <span class="kw3">src</span><span class="sy0">=</span><span class="st0">"http://www.vitalwall.com/vitaldata.js"</span>&gt;&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a>&gt;</span></pre>
+</div>
+</div>
+<p>Of course, you can pass whatever you like in the <em><strong>vitaldata</strong></em> variable. This is just a format I used when writing silverbullet.com. Now, when your product page is visited, the data for that item is passed to your vitalwall and is available for your wall.</p>
+<h1>Include Your Wall</h1>
+<p>To include the wall on your front page, insert the following code in your page. Put the div with the id of results where you want your wall.</p>
+<div id="wpshdo_2" class="wp-synhighlighter-outer">
+<div id="wpshdt_2" class="wp-synhighlighter-expanded">
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td align="left" width="80%"><a name="#codesyntax_2"></a><a id="wpshat_2" class="wp-synhighlighter-title" title="Click to show/hide code block" onclick="javascript:wpsh_toggleBlock(2)" href="http://blog.vitalwall.com/window-shopping-create-a-live-feed-of-hot-items-on-your-front-page/#codesyntax_2">Source code</a></td>
+<td align="right"><a title="Show code only" onclick="javascript:wpsh_code(2)" href="http://blog.vitalwall.com/window-shopping-create-a-live-feed-of-hot-items-on-your-front-page/#codesyntax_2"><img style="border: 0 none;" src="http://blog.vitalwall.com/wp-content/plugins/wp-synhighlight/themes/default/images/code.png" alt="" border="0" /></a> <a title="Print code" onclick="javascript:wpsh_print(2)" href="http://blog.vitalwall.com/window-shopping-create-a-live-feed-of-hot-items-on-your-front-page/#codesyntax_2"><img style="border: 0 none;" src="http://blog.vitalwall.com/wp-content/plugins/wp-synhighlight/themes/default/images/printer.png" alt="" border="0" /></a> <a title="Show plugin information" href="http://blog.vitalwall.com/wp-content/plugins/wp-synhighlight/About.html"><img style="border: 0 none;" src="http://blog.vitalwall.com/wp-content/plugins/wp-synhighlight/themes/default/images/info.gif" alt="" border="0" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="wpshdi_2" class="wp-synhighlighter-inner" style="display: block;">
+<pre class="html4strict" style="font-family: monospace;"><span class="sc2">&lt;<a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a> <span class="kw3">id</span><span class="sy0">=</span><span class="st0">"results"</span>&gt;&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/div.html"><span class="kw2">div</span></a>&gt;</span></pre>
+</div>
+</div>
+<p>Then, towards the bottom of the page, insert the following code.</p>
+<div id="wpshdo_3" class="wp-synhighlighter-outer">
+<div id="wpshdt_3" class="wp-synhighlighter-expanded">
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td align="left" width="80%"><a name="#codesyntax_3"></a><a id="wpshat_3" class="wp-synhighlighter-title" title="Click to show/hide code block" onclick="javascript:wpsh_toggleBlock(3)" href="http://blog.vitalwall.com/window-shopping-create-a-live-feed-of-hot-items-on-your-front-page/#codesyntax_3">Source code</a></td>
+<td align="right"><a title="Show code only" onclick="javascript:wpsh_code(3)" href="http://blog.vitalwall.com/window-shopping-create-a-live-feed-of-hot-items-on-your-front-page/#codesyntax_3"><img style="border: 0 none;" src="http://blog.vitalwall.com/wp-content/plugins/wp-synhighlight/themes/default/images/code.png" alt="" border="0" /></a> <a title="Print code" onclick="javascript:wpsh_print(3)" href="http://blog.vitalwall.com/window-shopping-create-a-live-feed-of-hot-items-on-your-front-page/#codesyntax_3"><img style="border: 0 none;" src="http://blog.vitalwall.com/wp-content/plugins/wp-synhighlight/themes/default/images/printer.png" alt="" border="0" /></a> <a title="Show plugin information" href="http://blog.vitalwall.com/wp-content/plugins/wp-synhighlight/About.html"><img style="border: 0 none;" src="http://blog.vitalwall.com/wp-content/plugins/wp-synhighlight/themes/default/images/info.gif" alt="" border="0" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="wpshdi_3" class="wp-synhighlighter-inner" style="display: block;">
+<pre class="html4strict" style="font-family: monospace;"><span class="sc2">&lt;<a href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"text/javascript"</span>&gt;</span>
+var wall_id='YOUR_WALL_ID';
+var div_id='results';
+<span class="sc2">&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a>&gt;</span>
+<span class="sc2">&lt;<a href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">"text/javascript"</span> <span class="kw3">src</span><span class="sy0">=</span><span class="st0">"http://vitalwall.com/include_wall.js"</span>&gt;&lt;<span class="sy0">/</span><a href="http://december.com/html/4/element/script.html"><span class="kw2">script</span></a>&gt;</span></pre>
+</div>
+</div>
+<h1>Use CSS to customize your wall</h1>
+<p>You can use CSS to customize the look of your wall. Add borders, colors, margins etc.</p>
+<p>That's it. You now have a live view of what is being viewed in your ecommerce store, and better yet, so do your customers.</p>
+<div class="shr-publisher-23"></div>
+<p><!-- Start Shareaholic LikeButtonSetBottom Automatic --></p>
+<div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div>
+<div class="shareaholic-like-buttonset" style="float: none; height: 30px;"></div>
+<div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div>
+<p><!-- End Shareaholic LikeButtonSetBottom Automatic --></p>

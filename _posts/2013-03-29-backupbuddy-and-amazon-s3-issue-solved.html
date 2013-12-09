@@ -1,0 +1,20 @@
+---
+layout: post
+title: BackupBuddy and Amazon S3 Issue Solved
+categories:
+- Blog
+- How To
+tags:
+- amazon
+- aws
+- backupbuddy
+- dropbox
+- s3
+status: publish
+type: post
+published: true
+meta: {}
+---
+<img src="http://static.squarespace.com/static/51855200e4b0580e000a606c/518569efe4b04b094756d5e2/518569f1e4b04b094756d61e/1367697941911/backupbuddy_logo.png" /><img src="http://static.squarespace.com/static/51855200e4b0580e000a606c/518569efe4b04b094756d5e2/518569f1e4b04b094756d621/1367697942260/amazon-web-services-logo-cc90d03c8e148873b8b6cc1a7fdbdf1a.png" /><p>If you're using <a href="http://ithemes.com/purchase/backupbuddy/">BackupBuddy</a> to backup your wordpress installs, then you know how great it is. &nbsp;If you've ever used it to move one of your wordpress sites, you really know what a life saver it can be. &nbsp;I've been using it for a while now and have a good number of sites backed up on both <a href="http://static.squarespace.com/static/51855200e4b0580e000a606c/518569efe4b04b094756d5e2/51856a13e4b04b094756d909/1367697939094/#img">dropbox</a> and <a href="http://aws.amazon.com/s3/">Amazon S3</a>. &nbsp;Until today, I never had an issue adding a new site to my collection. &nbsp;When I was setting up this site (yes, my oldest site was not being backed up, hence all the missing images I need to fix) , I added BackupBuddy as I always do, and went to my Amazon Console and set up a new bucket. &nbsp;I then proceeded to do a full back up and move it to to my offsite locations. &nbsp;But this time, I noticed it didn't show up in my new S3 bucket.</p><p>After some fun Googling, I found an answer in BackupBuddy's support website. &nbsp;Increase your php execution time, it must be timing out. &nbsp;Hmm, ok, never had to do that before. &nbsp;So I did, no luck. &nbsp;Increased again, no luck. &nbsp;Back to Google. &nbsp;After about an hour of reading, I was beginning to think this was just one of those rare things that is only happening to me and nobody else in the world. &nbsp;Then I found a hint in an AWS forum.</p><img src="http://static.squarespace.com/static/51855200e4b0580e000a606c/518569efe4b04b094756d5e2/518569f1e4b04b094756d624/1367697942400/Screenshot_3_28_13_10_14_PM-5.png" /><p>BackupBuddy only works with S3 if the bucket in created with the "US Standard" region selected. &nbsp;My S3 was suddenly defaulting to Northern California for some reason.&nbsp;</p><p>So hopefully this will help somebody Googling late at night because some default setting has changed that doesn't seem to be documented anywhere. &nbsp;At least anywhere I have read in the last hour.</p><nav class="social-account-list social-icon-style-round social-icon-size-default social-icon-alignment-left social-icon-color-black">
+  <a href="http://www.facebook.com/640176176" target="new" title="Ben Newton" class="social-facebook"></a><a href="https://twitter.com/BenENewton" target="new" title="Ben Newton" class="social-twitter"></a><a href="https://plus.google.com/103815049398062160217" target="new" title="Ben Newton" class="social-google"></a><a href="http://www.linkedin.com/in/bennewton" target="new" title="Ben Newton" class="social-linkedin"></a><a href="http://instagram.com/bennewton999" target="new" title="Ben Newton" class="social-instagram"></a><a href="https://github.com/bennewton999" target="new" title="Ben Newton" class="social-github"></a>
+</nav>
