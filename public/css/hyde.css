@@ -195,6 +195,12 @@ a:hover {
 .masthead-inner {
   padding: 20px;
 }
+.masthead img.me {
+  width: 60%;
+  margin: 40px auto;
+  border: 3px solid #fff;
+  border-radius: 50px;
+}
 .masthead h1 {
   margin-top: 0;
   font-family: "Raleway";
