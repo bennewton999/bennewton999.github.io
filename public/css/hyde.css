@@ -197,7 +197,7 @@ a:hover {
   padding: 20px;
 }
 .masthead img.me {
-  width:100px;
+  width:60%;
   margin: 40px auto;
   border: 3px solid #fff;
   border-radius: 50px;
@@ -363,7 +363,8 @@ a:hover {
     font-size: 36px;
   }
   .masthead img.me {
-  
+    width:100px;
+
   }
   .colophon {
     margin-top: 40px;
