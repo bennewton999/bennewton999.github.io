@@ -322,7 +322,6 @@ a:hover {
     margin-right: 40px;
   }
   .masthead img.me {
-    width:60%;
     margin:40px;
     float:left;
   }
@@ -362,6 +361,9 @@ a:hover {
   }
   .masthead h1 {
     font-size: 36px;
+  }
+  .masthead img.me {
+  
   }
   .colophon {
     margin-top: 40px;
