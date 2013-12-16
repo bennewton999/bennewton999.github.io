@@ -238,6 +238,10 @@ a:hover {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
+.post img {
+  max-width: 100%;
+}
 .post-date {
   display: block;
   margin: -10px 0 10px;
@@ -315,6 +319,11 @@ a:hover {
     margin-left: 40px;
     margin-right: 40px;
   }
+  .masthead img {
+    width:100px;
+    margin:40px;
+    float:left;
+  }
 }
 
 @media (min-width: 990px) {
@@ -341,6 +350,7 @@ a:hover {
     bottom: 0;
     width: 25%;
     margin-bottom: 0;
+    overflow: auto;
   }
   .masthead-inner {
     position: absolute;
@@ -349,7 +359,7 @@ a:hover {
     left: 0;
   }
   .masthead h1 {
-    font-size: 64px;
+    font-size: 36px;
   }
   .colophon {
     margin-top: 40px;
