@@ -1,10 +1,17 @@
-title:        Ben Newton
-tagline:      "Front End Engineer"
-url:          http://benenewton.com
-author:
-  name:       "Ben Newton"
-  email:      "bennewton999@gmail.com"
-markdown:     rdiscount
-permalink:    pretty
-pygments:     true
-paginate:     5
+markdown: rdiscount
+pygments: true
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
+exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components ]
+title : Ben Newton
+production_url : http://benenewton.com
+description: "Ben Newton Blog"
+disqus_shortname: caarlos0blog
+analytics: UA-XXXXXXX-1
+gauges: 
+author :
+  name : Ben Newton
+  github : bennewton999
+  twitter : BenENewton
+  email: bennewton999@gmail.com
