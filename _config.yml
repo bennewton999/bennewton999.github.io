@@ -7,7 +7,7 @@ exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components ]
 title : Ben Newton
 production_url : http://benenewton.com
 description: "Ben Newton Blog"
-disqus_shortname: caarlos0blog
+disqus_shortname: benenewton
 analytics: UA-XXXXXXX-1
 gauges: 
 author :
