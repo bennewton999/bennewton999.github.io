@@ -15,73 +15,73 @@ meta: {}
 ---
 <p>For years I have been thinking about writing an asp interface for the UPS and USPS rate finder API.  But since I had a com component installed on the one server I used it on, I always put it off and used the component.  As luck would have it, one Sunday a few weeks ago (it's always a Sunday) the component decided to return errors from UPS.  Of course, the component writer is long gone, so it was time to write the interface I had been contemplating for years.  Now mind you, this was on a very busy ecommerce site, so I was in a rush.
 Surprisingly, I had some asp code up and running quickly.  Here is the simple code in ASP that calls the USPS API and reads the results.  This can be plugged in easily into any code that needs the USPS rate.</p>
-`<%
-'needs the following variables
+    <%
+	'needs the following variables
 
-weight=1
-ship_to_zip=33323
-package_width=6
-package_length=6
-'package_height=6
+	weight=1
+	ship_to_zip=33323
+	package_width=6
+	package_length=6
+	'package_height=6
 
-if int(weight) &lt;&gt; weight then
-	weight=int(weight) + 1
-end if
+	if int(weight) &lt;&gt; weight then
+		weight=int(weight) + 1
+	end if
 
-if package_width &lt; 6 then package_width=6
-if package_length &lt; 6 then package_length=6
-if package_height &lt; 6 then package_height=6
+	if package_width &lt; 6 then package_width=6
+	if package_length &lt; 6 then package_length=6
+	if package_height &lt; 6 then package_height=6
 
-xml_request= "<!--?xml version='1.0'?-->"
-xml_request = xml_request &amp; ""
+	xml_request= "<!--?xml version='1.0'?-->"
+	xml_request = xml_request &amp; ""
 
-if usps_service="" then
-usps_service="PRIORITY"
-end if
+	if usps_service="" then
+	usps_service="PRIORITY"
+	end if
 
-xml_request = xml_request &amp; ""
-xml_request = xml_request &amp; "" &amp; usps_service &amp; ""
-xml_request = xml_request &amp; "33323"
-xml_request = xml_request &amp; "" &amp; ship_to_zip &amp; ""
-xml_request = xml_request &amp; "" &amp; weight &amp; ""
-xml_request = xml_request &amp; "0"
-xml_request = xml_request &amp; ""
-xml_request = xml_request &amp; "REGULAR"
-xml_request = xml_request &amp; "" &amp; package_width &amp; ""
-xml_request = xml_request &amp; "" &amp; package_length &amp; ""
-xml_request = xml_request &amp; "" &amp; package_height &amp; ""
-'xml_request = xml_request &amp; "55"
-if usps_service="PARCEL POST" then
-xml_request = xml_request &amp; "true"
-end if
-xml_request = xml_request &amp; ""
-xml_request = xml_request &amp; ""
+	xml_request = xml_request &amp; ""
+	xml_request = xml_request &amp; "" &amp; usps_service &amp; ""
+	xml_request = xml_request &amp; "33323"
+	xml_request = xml_request &amp; "" &amp; ship_to_zip &amp; ""
+	xml_request = xml_request &amp; "" &amp; weight &amp; ""
+	xml_request = xml_request &amp; "0"
+	xml_request = xml_request &amp; ""
+	xml_request = xml_request &amp; "REGULAR"
+	xml_request = xml_request &amp; "" &amp; package_width &amp; ""
+	xml_request = xml_request &amp; "" &amp; package_length &amp; ""
+	xml_request = xml_request &amp; "" &amp; package_height &amp; ""
+	'xml_request = xml_request &amp; "55"
+	if usps_service="PARCEL POST" then
+	xml_request = xml_request &amp; "true"
+	end if
+	xml_request = xml_request &amp; ""
+	xml_request = xml_request &amp; ""
 
-URLToRSS = "http://Production.ShippingAPIs.com/ShippingAPI.dll"
+	URLToRSS = "http://Production.ShippingAPIs.com/ShippingAPI.dll"
 
-Set xmlHttp = Server.CreateObject("MSXML2.ServerXMLHTTP.3.0")
-xmlHttp.Open "Post", URLToRSS, false
-xmlHttp.Send("API=RateV3&amp;XML=" &amp; xml_request)
+	Set xmlHttp = Server.CreateObject("MSXML2.ServerXMLHTTP.3.0")
+	xmlHttp.Open "Post", URLToRSS, false
+	xmlHttp.Send("API=RateV3&amp;XML=" &amp; xml_request)
 
-'uncomment below to see what USPS API is returning
-'Response.write xmlHttp.ResponseTEXT
+	'uncomment below to see what USPS API is returning
+	'Response.write xmlHttp.ResponseTEXT
 
-Set xmlDOM = Server.CreateObject("MSXML2.DOMDocument.3.0")
-xmlDOM.async = false
-xmlDOM.setProperty "SelectionLanguage", "XPath"
-xmlDOM.LoadXML xmlHttp.ResponseTEXT
+	Set xmlDOM = Server.CreateObject("MSXML2.DOMDocument.3.0")
+	xmlDOM.async = false
+	xmlDOM.setProperty "SelectionLanguage", "XPath"
+	xmlDOM.LoadXML xmlHttp.ResponseTEXT
 
-if xmlDOM.parseError.errorCode &lt;&gt; 0 then
+	if xmlDOM.parseError.errorCode &lt;&gt; 0 then
 
-	response.write "DOM Not Loaded"
+		response.write "DOM Not Loaded"
 
-end if
+	end if
 
-xmlQuery = "/RateV3Response/Package/Postage"
-set docHeadlines = xmlDOM.documentElement.selectNodes(xmlQuery)
-rate_error=""
-total=0
-total= docHeadlines.item(0).selectSingleNode("Rate").nodeTypedValue
+	xmlQuery = "/RateV3Response/Package/Postage"
+	set docHeadlines = xmlDOM.documentElement.selectNodes(xmlQuery)
+	rate_error=""
+	total=0
+	total= docHeadlines.item(0).selectSingleNode("Rate").nodeTypedValue
 
-'returns total with rate
-%>`
+	'returns total with rate
+	%>
