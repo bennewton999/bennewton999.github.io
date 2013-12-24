@@ -15,7 +15,7 @@ meta: {}
 ---
 <p>For years I have been thinking about writing an asp interface for the UPS and USPS rate finder API.  But since I had a com component installed on the one server I used it on, I always put it off and used the component.  As luck would have it, one Sunday a few weeks ago (it's always a Sunday) the component decided to return errors from UPS.  Of course, the component writer is long gone, so it was time to write the interface I had been contemplating for years.  Now mind you, this was on a very busy ecommerce site, so I was in a rush.
 Surprisingly, I had some asp code up and running quickly.  Here is the simple code in ASP that calls the USPS API and reads the results.  This can be plugged in easily into any code that needs the USPS rate.</p>
-{% highlight php %}
+{% highlight php linenos %}
     <%
 	'needs the following variables
 
@@ -86,3 +86,4 @@ Surprisingly, I had some asp code up and running quickly.  Here is the simple c
 
 	'returns total with rate
 	%>
+	{% endhighlight %}
