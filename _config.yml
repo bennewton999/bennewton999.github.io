@@ -1,0 +1,17 @@
+markdown: rdiscount
+pygments: true
+permalink: /blog/:year/:month/:day/:title
+rdiscount:
+  extensions: [smart]
+exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components ]
+title : Ben Newton
+production_url : http://benenewton.com
+description: "Ben Newton Blog"
+disqus_shortname: bensbrain
+analytics: UA-5757336-7
+gauges: 
+author :
+  name : Ben Newton
+  github : bennewton999
+  twitter : BenENewton
+  email: bennewton999@gmail.com

@@ -1,0 +1,80 @@
+---
+layout: post
+title: Simple Send Email Function for Classic ASP using CDO
+categories:
+- ASP
+- How To
+tags:
+- ASP
+- CDO
+- classic asp
+- Email
+- Sample Code
+status: publish
+type: post
+published: true
+meta: {}
+---
+<p>Here is a simple function you can use to email via CDO from Classic ASP.  Just create an include file with the following code and use a one line function call anywhere you want to send an email from.
+Works with attachments, html or text.</p>
+<p>Here is the include file:</p>
+<pre lang="VB">smtp_mail_server="YOUR MAIL SERVER"
+
+function xsendmail (xto,xbcc,xfrom,xsubject,xhtml,xbody,xatt)
+
+set imsg = createobject("cdo.message")
+	set iconf = createobject("cdo.configuration")
+
+	Set Flds = iConf.Fields
+	With Flds
+
+        'Set to 1 if you have SMTP on the webserver, else set to 2 to use another SMTP server
+	.Item("http://schemas.microsoft.com/cdo/configuration/sendusing") = 2
+
+        'If you need SSL uncomment following line
+        '.Item("http://schemas.microsoft.com/cdo/configuration/smtpusessl") = "true"
+
+        'SMTP Address set above
+	.Item("http://schemas.microsoft.com/cdo/configuration/smtpserver") = smtp_mail_server
+
+        'If your smtp server requires authentication, then set the following to 1, else comment out next 3 lines
+        .Item("http://schemas.microsoft.com/cdo/configuration/smtpauthenticate") = 1
+	.Item("http://schemas.microsoft.com/cdo/configuration/sendusername") = "YOUR EMAIL USER NAME"
+	.Item("http://schemas.microsoft.com/cdo/configuration/sendpassword") = "YOUR EMAIL PASSWORD"
+
+        .Update
+	End With
+
+	With iMsg
+		Set .Configuration = iConf
+			.To = xto
+			if xbcc &lt;&gt; "" then
+			.BCC = xbcc
+			end if
+			.From = xfrom
+			.Subject = xsubject
+			if (xhtml) then
+			.HTMLbody = xbody
+			else
+			.TEXTBody  = xbody
+			end if
+			.fields.update
+			.Send
+	End With
+
+	set iconf = nothing
+set imsg = nothing
+
+end function</pre>
+<p>Now, from any page that you include the above file in, you can call the following code:</p>
+<pre lang="VB">to_name="Fred Flintstone"
+to_email="fred@bedrock.com"
+from_name="Barney Rubble"
+bcc="wilma@bedrock.com" 'optional
+from_email="barney@thequary.com"
+subject="Bowling"
+body="Hello, this is a test email."
+html=0 '0 for text or 1 for html
+att_name="" ' include file location on server if you want to add an attachment
+
+xsendmail to_name &amp; "",bcc,from_name &amp; "</pre>
