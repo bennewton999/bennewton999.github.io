@@ -9,7 +9,7 @@ production_url : http://benenewton.com
 description: "Ben Newton Blog"
 disqus_shortname: bensbrain
 analytics: UA-5757336-7
-gauges: 
+gauges: 52bdfde4eddd5b7cc5004873
 author :
   name : Ben Newton
   github : bennewton999
