@@ -1,0 +1,19 @@
+description:
+  This is a sample project description.
+endorsements:
+-
+  body:
+    Working with this company was great!
+  from: Endorser Name
+  role: Lead Developer
+image:
+  url: /images/mabds.png
+  title: My Amazing Blow Dry Secret
+  alt: My Amazing Blow Dry Secret
+layout: project
+project_description:
+  We did this project.
+published: true
+short:     This is a sample short description.
+title:     My Amazing Blow Dry Secret
+website:   http://myamazingblowdrysecret.com/

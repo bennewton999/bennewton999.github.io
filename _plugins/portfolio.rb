@@ -1,3 +1,5 @@
+require 'pp'
+
 module Jekyll
   class PortfolioIndex < Page
     def initialize(site, base, dir)
