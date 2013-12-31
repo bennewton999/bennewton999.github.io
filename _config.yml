@@ -10,7 +10,7 @@ description: "Ben Newton Blog"
 disqus_shortname: bensbrain
 analytics: UA-5757336-7
 gauges: 52bdfde4eddd5b7cc5004873
-paginate:3
+paginate : 3
 author :
   name : Ben Newton
   github : bennewton999
