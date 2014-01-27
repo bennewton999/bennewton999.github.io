@@ -1,13 +1,14 @@
 markdown: rdiscount
 pygments: true
-paginate: 5
+paginate: 10
+paginate_path: "blog/page:num"
 permalink: /blog/:year/:month/:day/:title
 rdiscount:
   extensions: [smart]
 exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components ]
-title : Ben Newton
+title : Ben Newton - Front End Engineer
 production_url : http://benenewton.com
-description: "Ben Newton Blog"
+description: "Ben Newton - Front End Engineer"
 disqus_shortname: bensbrain
 analytics: UA-5757336-7
 gauges: 52bdfde4eddd5b7cc5004873
