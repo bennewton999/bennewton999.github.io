@@ -40,7 +40,7 @@ TiempoTimepieces.com (Under Development) - Turley Timepieces
 [4]: http://torontoespaces.com
 [5]: http://torontoescapes.com/flight-deals/
 [7]: http://65reasons.astonhotels.com
-[8]: http://ipremios.s3.amazonaws.com/index.html#/
+[8]: http://ipremios.s3.amazonaws.com/index.html
 [9]: http://wmmsc.s3-website-us-east-1.amazonaws.com/DivinaLP/
 [10]: http://tamoffers.com
 [11]: http://caymanyp.com/distribution/
