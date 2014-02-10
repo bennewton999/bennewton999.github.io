@@ -3,7 +3,7 @@ layout: layout
 title: "Posts"
 ---
 
-Hi, I'm Ben Newton, and I'm a Front End Engineer. I'm lucky enought to be the lead developer at [Worldmedia Interactive][0], a full service media agency in Miami.  There, I get to work with a bunch of great designers.  See some of our work below.  I also do freelance work.  If you have a project you would like to discuss, [contact me](/about).
+Hi, I'm Ben Newton, and I'm a Front End Engineer. I'm lucky enough to be the lead developer at [Worldmedia Interactive][0], a full service media agency in Miami, where I get to work with a [plethora][17] of great designers.  See some of our work below.  I also do freelance work.  If you have a project you would like to discuss, [contact me](/about).
 
 ##Projects I've worked on at Worldmedia Interactive
 
@@ -48,3 +48,4 @@ TiempoTimepieces.com (Under Development) - Turley Timepieces
 [14]: http://www.flysaaspecials.com/
 [15]: http://purebrazilian.com/
 [16]: http://myamazingblowdrysecret/
+[17]: http://www.youtube.com/watch?v=-mTUmczVdik
