@@ -10,7 +10,8 @@ title : Ben Newton - Front End Engineer
 production_url : http://benenewton.com
 description: "Ben Newton - Front End Engineer"
 disqus_shortname: bensbrain
-analytics: UA-5757336-7
+analytics:
+tagmanager: GTM-NDWX5Q
 gauges: 52bdfde4eddd5b7cc5004873
 author :
   name : Ben Newton
