@@ -50,4 +50,3 @@ TiempoTimepieces.com (Under Development) - Turley Timepieces
 [16]: http://myamazingblowdrysecret/
 [17]: http://www.youtube.com/watch?v=-mTUmczVdik
 
-<meta name="google-site-verification" content="0eeuxqcnalK5MNwez5WGz-iXMG40gFUEmbNTBd6mstU" />
