@@ -3,7 +3,7 @@ layout: layout
 title: "Posts"
 ---
 
-Hi, I'm <a rel="author" href="ps://plus.google.com/+BenNewton999?rel=author">Ben Newton</a>, and I'm a Front End Engineer. Since early 2012, I've been the lead developer at [Worldmedia Interactive][0], a full service media agency in Miami, where I get to work with a [plethora][17] of great designers.  See some of our work below.  I also do freelance work.  If you have a project you would like to discuss, [contact me](/about).
+Hi, I'm <a rel="author" href="https://plus.google.com/+BenNewton999?rel=author">Ben Newton</a>, and I'm a Front End Engineer. Since early 2012, I've been the lead developer at [Worldmedia Interactive][0], a full service media agency in Miami, where I get to work with a [plethora][17] of great designers.  See some of our work below.  I also do freelance work.  If you have a project you would like to discuss, [contact me](/about).
 
 ##Projects I've worked on at Worldmedia Interactive
 
