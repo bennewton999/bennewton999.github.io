@@ -17,3 +17,15 @@ layout: layout
   <hr>
   {% include disqus.html %}
 </article>
+
+<script type="text/javascript">
+var vitaldata=escape('{{ page.title }}');
+
+var wall_id='12345';
+
+(function() {
+var vw = document.createElement('script'); vw.type = 'text/javascript'; vw.async = true;
+vw.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.vitalwall.com/vitaldata.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vw, s);
+})();
+</script>
