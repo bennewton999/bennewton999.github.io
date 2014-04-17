@@ -17,6 +17,10 @@ _Front End: HTML, CSS, Angular.js Back End: Node.js and Mongo (MEAN STACK)_
 
 ###Past Projects
 
+#####[Alamo Rent-a-Car Latin American Specials](http://latamspecials.alamo.com) - Alamo Rent-a-Car
+
+_Front End: Javascript_
+
 #####[Aston 65 Reasons](http://65reasons.astonhotels.com) - Aston Resorts and Hotels
 
 _Front End: Javascript_
