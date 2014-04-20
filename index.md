@@ -90,3 +90,15 @@ _Front End: HTML, CSS Javascript  Back End:Wordpress_
 [16]: http://myamazingblowdrysecret/
 [17]: http://www.youtube.com/watch?v=-mTUmczVdik
 
+<script type="text/javascript">
+var vitaldata='Blog Test';
+
+var wall_id='1';
+
+(function() {
+var vw = document.createElement('script'); vw.type = 'text/javascript'; vw.async = true;
+vw.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 's3.amazonaws.com/code.vitalwall.com/vitaldata.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vw, s);
+})();
+</script>
+
