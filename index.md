@@ -11,7 +11,7 @@ This website is my playground.  I am constantly trying out different hosts and t
 
 ###Current Projects
 
-#####<a vital href="http://europe.enterprise.com">Enterprise Rent-a-Car's European Website</a> - Enterprise Rent-a-Car
+#####<a data-vital href="http://europe.enterprise.com">Enterprise Rent-a-Car's European Website</a> - Enterprise Rent-a-Car
 
 _Front End: HTML, CSS, Angular.js Back End: Node.js and Mongo (MEAN STACK)_
 
