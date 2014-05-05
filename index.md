@@ -25,7 +25,7 @@ _Front End: Javascript_
 
 _Front End: Javascript_
 
-#####a data-vital="vital" href="http://ipremios.s3.amazonaws.com/index.html" target="_blank">Ipremios</a> - Batanga Media
+#####<a data-vital="vital" href="http://ipremios.s3.amazonaws.com/index.html" target="_blank">Ipremios</a> - Batanga Media
 
 _Front End: HTML, CSS, Angular.js  Back End:Node.js and Firebase Database._
 
