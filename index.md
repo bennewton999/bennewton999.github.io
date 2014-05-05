@@ -11,8 +11,7 @@ This website is my playground.  I am constantly trying out different hosts and t
 
 ###Current Projects
 
-#####[Enterprise Rent-a-Car's European Website](http://europe.enterprise.com)
- - Enterprise Rent-a-Car
+#####[Enterprise Rent-a-Car's European Website](http://europe.enterprise.com) - Enterprise Rent-a-Car
 
 _Front End: HTML, CSS, Angular.js Back End: Node.js and Mongo (MEAN STACK)_
 
