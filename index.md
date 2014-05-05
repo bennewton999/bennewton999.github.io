@@ -11,21 +11,21 @@ This website is my playground.  I am constantly trying out different hosts and t
 
 ###Current Projects
 
-#####<a data-vital="vital" href="http://europe.enterprise.com">Enterprise Rent-a-Car's European Website</a> - Enterprise Rent-a-Car
+#####<a data-vital="vital" href="http://europe.enterprise.com" target="_blank">Enterprise Rent-a-Car's European Website</a> - Enterprise Rent-a-Car
 
 _Front End: HTML, CSS, Angular.js Back End: Node.js and Mongo (MEAN STACK)_
 
 ###Past Projects
 
-#####[Alamo Rent-a-Car Latin American Specials](http://latamspecials.alamo.com) - Alamo Rent-a-Car
+#####<a data-vital="vital" href="http://latamspecials.alamo.com" target="_blank">Alamo Rent-a-Car Latin American Specials</a> - Alamo Rent-a-Car
 
 _Front End: Javascript_
 
-#####[Aston 65 Reasons](http://65reasons.astonhotels.com) - Aston Resorts and Hotels
+#####<a data-vital="vital" href="http://65reasons.astonhotels.com" target="_blank">Aston 65 Reasons</a> - Aston Resorts and Hotels
 
 _Front End: Javascript_
 
-#####[Ipremios](http://ipremios.s3.amazonaws.com/index.html) - Batanga Media
+#####a data-vital="vital" href="http://ipremios.s3.amazonaws.com/index.html" target="_blank">Ipremios</a> - Batanga Media
 
 _Front End: HTML, CSS, Angular.js  Back End:Node.js and Firebase Database._
 
