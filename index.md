@@ -90,6 +90,7 @@ _Front End: HTML, CSS Javascript  Back End:Wordpress_
 [16]: http://myamazingblowdrysecret/
 [17]: http://www.youtube.com/watch?v=-mTUmczVdik
 
+<script src='http://vitalwall.com/socket.io/socket.io.js'></script>
 <script type="text/javascript">
 var vitaldata='Blog Test';
 
