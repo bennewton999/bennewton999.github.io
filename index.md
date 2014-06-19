@@ -29,11 +29,11 @@ _Front End: Javascript_
 
 _Front End: HTML, CSS, Angular.js  Back End:Node.js and Firebase Database._
 
-#####[worldmedia.net](http://worldmedia.net) - Worldmedia Interactive
+#####<a data-vital="vital" href="http://worldmedia.net" target="_blank">worldmedia.net</a> - Worldmedia Interactive
 
 _Front End: HTML, CSS, Javascript_
 
-#####[TorontoEscapes Flight Deals](http://torontoescapes.com/flight-deals/) - Air Canada, Toronto Tourism
+#####<a data-vital="vital" href="http://torontoescapes.com/flight-deals/" target="_blank">TorontoEscapes Flight Deals</a> - Air Canada, Toronto Tourism
 
 _Front End: HTML, CSS, Angular.js Back End: Node.js_
 
@@ -41,7 +41,7 @@ _Front End: HTML, CSS, Angular.js Back End: Node.js_
 
 _Front End: Some HTML, CSS and Javascript (Timeline, Spinning Ship, Conversation Panels)_
 
-#####[Norwegian Getaway Microsite][2] - Norwegian Cruise Line
+#####Norwegian Getaway Microsite (Retied) - Norwegian Cruise Line
 
 _Front End: Some HTML, CSS and Javascript (Timeline, Spinning Ship, Conversation Panels)_
 
