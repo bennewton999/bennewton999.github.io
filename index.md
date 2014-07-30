@@ -92,7 +92,7 @@ _Front End: HTML, CSS Javascript  Back End:Wordpress_
 
 <img data-vital="vital" src="/images/test.jpg">
 
-<script src='http://www.vitalwall.com/socket.io/socket.io.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js'></script>
 <script type="text/javascript">
 var vitaldata='Blog Test';
 
