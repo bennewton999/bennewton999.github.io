@@ -96,11 +96,11 @@ _Front End: HTML, CSS Javascript  Back End:Wordpress_
 <script type="text/javascript">
 var vitaldata='Blog Test';
 
-var wall_id='1';
+var wall_id='542784fe95b0f2793ab0edc3';
 
 (function() {
 var vw = document.createElement('script'); vw.type = 'text/javascript'; vw.async = true;
-vw.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 's3.amazonaws.com/code.vitalwall.com/vitaldata.js';
+vw.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 's3.amazonaws.com/code.vitalwall.com/devvitaldata.js';
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vw, s);
 })();
 </script>
