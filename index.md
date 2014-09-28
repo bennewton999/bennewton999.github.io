@@ -100,7 +100,7 @@ var wall_id='542784fe95b0f2793ab0edc3';
 
 (function() {
 var vw = document.createElement('script'); vw.type = 'text/javascript'; vw.async = true;
-vw.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 's3.amazonaws.com/code.vitalwall.com/devvitaldata.js';
+vw.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 's3.amazonaws.com/code.vitalwall.com/vitaldata.js';
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vw, s);
 })();
 </script>
