@@ -41,9 +41,13 @@ _Front End: HTML, CSS, Angular.js Back End: Node.js_
 
 _Front End: Some HTML, CSS and Javascript (Timeline, Spinning Ship, Conversation Panels)_
 
-#####Norwegian Getaway Microsite (Retied) - Norwegian Cruise Line
+#####Norwegian Getaway Microsite (Retired) - Norwegian Cruise Line
 
 _Front End: Some HTML, CSS and Javascript (Timeline, Spinning Ship, Conversation Panels)_
+
+#####Norwegian Escape Microsite (Under Development) - Norwegian Cruise Line
+
+_Full site design & development_
 
 #####[MSC Divina LP][9] - MSC Cruise Line
 
@@ -61,7 +65,7 @@ _Front End: HTML, CSS_
 
 _Front End: HTML, CSS_
 
-#####TiempoTimepieces.com (Under Development) - Turley Timepieces
+#####[TiempoTimepieces.com][18] - Turley Timepieces
 
 _Front End: HTML, CSS, Angular.js Back End:Classic ASP, (Yes, Classic ASP)_
 
@@ -87,12 +91,13 @@ _Front End: HTML, CSS Javascript  Back End:Wordpress_
 [12]: https://s3.amazonaws.com/wmsaa/landing_page_10092013/index.html
 [14]: http://www.flysaaspecials.com/
 [15]: http://purebrazilian.com/
-[16]: http://myamazingblowdrysecret/
+[16]: http://myamazingblowdrysecret.com/
 [17]: http://www.youtube.com/watch?v=-mTUmczVdik
+[18]: http://tiempotimepieces.com/
 
 <img data-vital="vital" src="/images/test.jpg">
 
-<script src='http://0.0.0.0:9000/socket.io/socket.io.js'></script>
+<script src='http://www.vitalwall.com/socket.io/socket.io.js'></script>
 <script type="text/javascript">
 var vitaldata='Blog Test';
 
@@ -100,7 +105,7 @@ var wall_id='542784fe95b0f2793ab0edc3';
 
 (function() {
 var vw = document.createElement('script'); vw.type = 'text/javascript'; vw.async = true;
-vw.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 's3.amazonaws.com/code.vitalwall.com/devvitaldata.js';
+vw.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 's3.amazonaws.com/code.vitalwall.com/vitaldata.js';
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vw, s);
 })();
 </script>
