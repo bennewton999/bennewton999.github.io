@@ -99,7 +99,7 @@ _Front End: HTML, CSS Javascript  Back End:Wordpress_
 
 <script src='http://www.vitalwall.com/socket.io/socket.io.js'></script>
 <script type="text/javascript">
-//var vitaldata='Blog Test';
+var vitaldata;
 
 var wall_id='542784fe95b0f2793ab0edc3';
 
