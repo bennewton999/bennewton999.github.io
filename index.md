@@ -11,6 +11,10 @@ This website is my playground and I am constantly trying out different hosts and
 
 ###Current Projects
 
+#####<a data-animate data-vital="vital" href="http://escape.ncl.com" target="_blank">Norwegian Cruise Line - Norwegian Escape Website</a> - Norwegian Cruise Line
+
+_Front End: HTML, CSS, Angular.js, Greensock Back End: Wordpress Custom Back End_
+
 #####<a data-animate data-vital="vital" href="http://europe.enterprise.com" target="_blank">Enterprise Rent-a-Car's European Website</a> - Enterprise Rent-a-Car
 
 _Front End: HTML, CSS, Angular.js Back End: Node.js and Mongo (MEAN STACK)_
