@@ -11,13 +11,14 @@ This website is my playground and I am constantly trying out different hosts and
 
 ###Current Projects
 
-#####<a data-vital="vital" href="http://europe.enterprise.com" target="_blank">Enterprise Rent-a-Car's European Website</a> - Enterprise Rent-a-Car
+#####<a data-animate data-vital="vital" href="http://europe.enterprise.com" target="_blank">Enterprise Rent-a-Car's European Website</a> - Enterprise Rent-a-Car
 
 _Front End: HTML, CSS, Angular.js Back End: Node.js and Mongo (MEAN STACK)_
 
 ###Past Projects
 
-#####<a data-vital="vital" href="http://latamspecials.alamo.com" target="_blank">Alamo Rent-a-Car Latin American Specials</a> - Alamo Rent-a-Car
+
+#####<a data-animate data-vital="vital" href="http://latamspecials.alamo.com" target="_blank">Alamo Rent-a-Car Latin American Specials</a> - Alamo Rent-a-Car
 
 _Front End: Javascript_
 
@@ -53,7 +54,7 @@ _Full site design & development_
 
 _Front End: HTML, CSS_
 
-#####[TAMOffers.com][10] - TAM Airlines
+#####TAMOffers.com (Retired) - TAM Airlines
 
 _Front End: HTML, CSS_
 
@@ -86,7 +87,7 @@ _Front End: HTML, CSS Javascript  Back End:Wordpress_
 [7]: 
 [8]: 
 [9]: http://wmmsc.s3-website-us-east-1.amazonaws.com/DivinaLP/
-[10]: http://tamoffers.com
+[10]: 
 [11]: http://caymanyp.com/distribution/
 [12]: https://s3.amazonaws.com/wmsaa/landing_page_10092013/index.html
 [14]: http://www.flysaaspecials.com/
@@ -99,7 +100,7 @@ _Front End: HTML, CSS Javascript  Back End:Wordpress_
 
 <script src='http://www.vitalwall.com/socket.io/socket.io.js'></script>
 <script type="text/javascript">
-//var vitaldata='Blog Test';
+var vitaldata;
 
 var wall_id='542784fe95b0f2793ab0edc3';
 
