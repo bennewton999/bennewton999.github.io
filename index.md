@@ -3,7 +3,9 @@ layout: layout
 title: "Ben Newton - Front End Engineer"
 ---
 
-<img class="me" src="/images/Ben_Newton.png"> Hi, I'm <a rel="author" href="https://plus.google.com/+BenNewton999?rel=author">Ben Newton</a>. I'm a Front End Engineer. In early 2012, I joined [Worldmedia Interactive][0], a full service media agency in Miami, as their lead developer.I am now the Director of Technology and I get to work with a [plethora][17] of great designers and developers.  See some of our work below.  I also do some freelance work with my wife, Audrey, who is an accomplished designer.  If you have a project you would like to discuss, [contact me](/about).
+<img class="me" src="/images/Ben_Newton.png"><br>
+Hi, I'm <a rel="author" href="https://plus.google.com/+BenNewton999?rel=author">Ben Newton</a>. I'm a Front End Engineer. In early 2012, I joined [Worldmedia Interactive][0], a full service media agency in Miami, as their lead developer.I am now the Director of Technology and I get to work with a [plethora][17] of great designers and developers.  See some of our work below.  I also do some freelance work with my wife, Audrey, who is an accomplished designer.  If you have a project you would like to discuss, [contact me](/about).
+<br>
 <br>
 This website is my playground and I am constantly trying out different hosts and technologies and it is never really complete.  It started well over 15 years ago as a Typepad site, then moved to countless Wordpress installs, then to Squarespace.  For the past few months now I have been using Jekyll and Github Pages.  I'm already planning my next move to a Node.js backend and Angular.js front end.  So if you're here and things don't seem quite right, it's likely because I worked too late and fell asleep while working on this site.  I will get back to it soon.. I always do.
 
