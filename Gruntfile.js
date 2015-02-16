@@ -7,6 +7,9 @@ module.exports = function(grunt) {
           'bower_components/jquery/jquery.min.js',
           'bower_components/bootstrap/js/transition.js',
           'bower_components/bootstrap/js/collapse.js',
+          'bower_components/gsap/src/minified/TweenMax.min.js',
+          '_assets/SplitText.min.js',
+          'bower_components/ScrollMagic/js/jquery.scrollmagic.js',
           '_assets/up.js'
         ],
         dest: 'js/up.js'
